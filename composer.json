@@ -9,6 +9,7 @@
             "email": "marlenesco@gmail.com"
         }
     ],
+    "require-dev": {},
     "require" : {
         "php": ">=5.5.0"
     },
