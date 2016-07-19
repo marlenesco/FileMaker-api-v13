@@ -1,0 +1,15 @@
+{
+    "name": "marlenesco/FileMaker-api-v13",
+    "description": "FileMaker API (v13) for PHP",
+    "keywords": ["filemaker","php api", "filemaker api"],
+    "license": "FileMaker Licence",
+    "authors": [
+        {
+            "name": "David Foliti",
+            "email": "marlenesco@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": ["lib/FileMaker.php"]
+    }
+}

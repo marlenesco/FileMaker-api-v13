@@ -1,0 +1,14 @@
+.idea
+*.iml
+out
+gen
+nbproject
+.buildpath
+.project
+.settings
+Thumbs.db
+/vendor
+composer.phar
+.DS_Store
+phpunit.phar
+/phpunit.xml
