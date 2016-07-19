@@ -6,7 +6,7 @@ FileMaker API (v13) for PHP
 ### Using Composer
 You can use the `composer` package manager to install.
 
-    $ php composer.phar require marlenesco/filemaker-api-v13 "*"
+    $ composer require marlenesco/filemaker-api-v13 "*"
 
 or add:
 
