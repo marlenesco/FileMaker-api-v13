@@ -1,5 +1,5 @@
 {
-    "name": "marlenesco/FileMaker-api-v13",
+    "name": "marlenesco/filemaker-api-v13",
     "description": "FileMaker API (v13) for PHP",
     "keywords": ["filemaker","php api", "filemaker api"],
     "license": "FileMaker Licence",
