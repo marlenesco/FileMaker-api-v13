@@ -1,5 +1,5 @@
 # FileMaker PHP-API
-FileMaker API (v13) for PHP
+FileMaker API for PHP
 
 ## Installation
 
