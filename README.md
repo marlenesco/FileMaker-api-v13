@@ -1,4 +1,4 @@
-# FileMaker PHP-API
+# FileMaker API-PHP
 FileMaker API for PHP
 
 ## Installation
