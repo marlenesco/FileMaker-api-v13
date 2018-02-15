@@ -2,7 +2,7 @@
     "name": "marlenesco/filemaker-api",
     "description": "FileMaker API for PHP",
     "keywords": ["filemaker","php api", "filemaker api"],
-    "license": "FileMaker Licence",
+    "license": "Universal Permissive License v1.0",
     "authors": [
         {
             "name": "David Foliti",
