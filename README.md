@@ -10,6 +10,6 @@ You can use the `composer` package manager to install.
 
 or add:
 
-    "marlenesco/filemaker-api": "1.0.2"
+    "marlenesco/filemaker-api": "1.0.3"
 
 to your composer.json file
