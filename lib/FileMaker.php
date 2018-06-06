@@ -210,7 +210,7 @@ class FileMaker
      *
      * @return FileMaker_Command_Add New Add command object.
      */
-    function &newAddCommand($layout, $values = array())
+    function newAddCommand($layout, $values = array())
     {
         return $this->_impl->newAddCommand($layout, $values);
     }
@@ -228,7 +228,7 @@ class FileMaker
      *
      * @return FileMaker_Command_Edit New Edit command object.
      */
-    function &newEditCommand($layout, $recordId, $updatedValues = array())
+    function newEditCommand($layout, $recordId, $updatedValues = array())
     {
         return $this->_impl->newEditCommand($layout, $recordId, $updatedValues);
     }
@@ -241,7 +241,7 @@ class FileMaker
      *
      * @return FileMaker_Command_Delete New Delete command object.
      */
-    function &newDeleteCommand($layout, $recordId)
+    function newDeleteCommand($layout, $recordId)
     {
         return $this->_impl->newDeleteCommand($layout, $recordId);
     }
@@ -254,7 +254,7 @@ class FileMaker
      *
      * @return FileMaker_Command_Duplicate New Duplicate command object.
      */
-    function &newDuplicateCommand($layout, $recordId)
+    function newDuplicateCommand($layout, $recordId)
     {
         return $this->_impl->newDuplicateCommand($layout, $recordId);
     }
@@ -266,7 +266,7 @@ class FileMaker
      *
      * @return FileMaker_Command_Find New Find command object.
      */
-    function &newFindCommand($layout)
+    function newFindCommand($layout)
     {
         return $this->_impl->newFindCommand($layout);
     }
@@ -280,7 +280,7 @@ class FileMaker
      * @return FileMaker_Command_CompoundFind New Compound Find Set command 
      *         object.
      */
-    function &newCompoundFindCommand($layout)
+    function newCompoundFindCommand($layout)
     {
         return $this->_impl->newCompoundFindCommand($layout);
     }
@@ -295,7 +295,7 @@ class FileMaker
      *
      * @return FileMaker_Command_FindRequest New Find Request command object.
      */
-    function &newFindRequest($layout)
+    function newFindRequest($layout)
     {
         return $this->_impl->newFindRequest($layout);
     }
@@ -307,7 +307,7 @@ class FileMaker
      *
      * @return FileMaker_Command_FindAny New Find Any command object.
      */
-    function &newFindAnyCommand($layout)
+    function newFindAnyCommand($layout)
     {
         return $this->_impl->newFindAnyCommand($layout);
     }
@@ -319,7 +319,7 @@ class FileMaker
      *
      * @return FileMaker_Command_FindAll New Find All command object.
      */
-    function &newFindAllCommand($layout)
+    function newFindAllCommand($layout)
     {
         return $this->_impl->newFindAllCommand($layout);
     }
@@ -334,7 +334,7 @@ class FileMaker
      * @return FileMaker_Command_PerformScript New Perform Script command 
      *         object.
      */
-    function &newPerformScriptCommand($layout, $scriptName, $scriptParameters = null)
+    function newPerformScriptCommand($layout, $scriptName, $scriptParameters = null)
     {
         return $this->_impl->newPerformScriptCommand($layout, $scriptName, $scriptParameters);
     }

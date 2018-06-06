@@ -92,38 +92,38 @@ if (!is_string($V1d770934)) {
 }
 return utf8_decode($V1d770934);
 }
- function &newAddCommand($Vc6140495, $Vf09cc7ee = array())
+ function newAddCommand($Vc6140495, $Vf09cc7ee = array())
  {
  require_once dirname(__FILE__) . '/../Command/Add.php';
 $Vab4d0a65 = new FileMaker_Command_Add($this, $Vc6140495, $Vf09cc7ee);
 return $Vab4d0a65;
 }
- function &newEditCommand($Vc6140495, $Va6ec9c02, $Va0af1e2b = array())
+ function newEditCommand($Vc6140495, $Va6ec9c02, $Va0af1e2b = array())
  {
  require_once dirname(__FILE__) . '/../Command/Edit.php';
 $Vab4d0a65 = new FileMaker_Command_Edit($this, $Vc6140495, $Va6ec9c02, $Va0af1e2b);
 return $Vab4d0a65;
 }
- function &newDeleteCommand($Vc6140495, $Va6ec9c02)
+ function newDeleteCommand($Vc6140495, $Va6ec9c02)
  {
  require_once dirname(__FILE__) . '/../Command/Delete.php';
 $Vab4d0a65 = new FileMaker_Command_Delete($this, $Vc6140495, $Va6ec9c02);
 return $Vab4d0a65;
 }
- function &newDuplicateCommand($Vc6140495, $Va6ec9c02)
+ function newDuplicateCommand($Vc6140495, $Va6ec9c02)
  {
  require_once dirname(__FILE__) . '/../Command/Duplicate.php';
 $Vab4d0a65 = new FileMaker_Command_Duplicate($this, $Vc6140495, $Va6ec9c02);
 return $Vab4d0a65;
 }
- function &newFindCommand($Vc6140495)
+ function newFindCommand($Vc6140495)
  {
  require_once dirname(__FILE__) . '/../Command/Find.php';
 $Vab4d0a65 = new FileMaker_Command_Find($this, $Vc6140495);
 return $Vab4d0a65;
 }
 
-  function &newCompoundFindCommand($Vc6140495)
+  function newCompoundFindCommand($Vc6140495)
  {
  require_once dirname(__FILE__) . '/../Command/CompoundFind.php';
 $Vcdaeeeba = new FileMaker_Command_CompoundFind($this, $Vc6140495);
@@ -131,7 +131,7 @@ return $Vcdaeeeba;
 
  }
 
-  function &newFindRequest($Vc6140495)
+  function newFindRequest($Vc6140495)
  {
  require_once dirname(__FILE__) . '/../Command/FindRequest.php';
 $Vab4d0a65 = new FileMaker_Command_FindRequest($this, $Vc6140495);
@@ -139,19 +139,19 @@ return $Vab4d0a65;
 
  }
 
-  function &newFindAnyCommand($Vc6140495)
+  function newFindAnyCommand($Vc6140495)
  {
  require_once dirname(__FILE__) . '/../Command/FindAny.php';
 $Vab4d0a65 = new FileMaker_Command_FindAny($this, $Vc6140495);
 return $Vab4d0a65;
 }
- function &newFindAllCommand($Vc6140495)
+ function newFindAllCommand($Vc6140495)
  {
  require_once dirname(__FILE__) . '/../Command/FindAll.php';
 $Vab4d0a65 = new FileMaker_Command_FindAll($this, $Vc6140495);
 return $Vab4d0a65;
 }
- function &newPerformScriptCommand($Vc6140495, $V2550889a, $V9b479e5e = null)
+ function newPerformScriptCommand($Vc6140495, $V2550889a, $V9b479e5e = null)
  {
  require_once dirname(__FILE__) . '/../Command/PerformScript.php';
 $Vab4d0a65 = new FileMaker_Command_PerformScript($this, $Vc6140495, $V2550889a, $V9b479e5e);

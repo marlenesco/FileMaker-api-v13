@@ -128,7 +128,7 @@ return $Vcb5e100e;
 }
 return $this->_relatedSets[$Vaca007a7];
 }
- function &newRelatedRecord(&$Vd0e45878, $Vaca007a7)
+ function newRelatedRecord(&$Vd0e45878, $Vaca007a7)
  {
  $V3a2d7564 =& $this->_layout->getRelatedSet($Vaca007a7);
 if (FileMaker::isError($V3a2d7564)) {

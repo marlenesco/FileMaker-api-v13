@@ -219,7 +219,7 @@ class FileMaker_Record
      *
      * @return FileMaker_Record A new, blank record.
      */
-    function &newRelatedRecord($relatedSet)
+    function newRelatedRecord($relatedSet)
     {
         return $this->_impl->newRelatedRecord($this, $relatedSet);
     }
